@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "compile": "npx truffle compile",
+    "deploytest": "npx truffle migrate --network rinkeby",
+    "deploymain": "npx truffle migrate --network mainnet"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@openzeppelin/contracts": "^4.3.3",
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "truffle": "^5.4.21",
+    "truffle-contract-size": "^2.0.1"
+  }
+}
